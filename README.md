@@ -4,6 +4,8 @@ TestGracefulShutdown01 用于验证 Java 线程正常退出时是否会运行 sh
 
 TestGracefulShutdown02 用于验证 Java 线程被强制关闭时是否会执行 shutdownHook 中的方法。
 
+TestGracefulShutdown03 用于验证 Java 线程调用 System#exit 时是否会执行 shutdownHook 中的方法。
+
 测试步骤如下：
 
 1.编译 java 源代码
